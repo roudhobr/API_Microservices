@@ -38,3 +38,4 @@ Route::prefix('social')->group(function () {
     Route::post('/posts/{id}/comment', [SocialController::class, 'commentPost']);
     Route::get('/posts/{id}/comments', [SocialController::class, 'getPostComments']);
 });
+

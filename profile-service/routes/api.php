@@ -7,6 +7,7 @@ use App\Http\Controllers\HealthController;
 
 // Health check endpoint
 Route::get('/health', [HealthController::class, 'check']);
+Route::post('/auth/register', [ProfileController::class, 'register']);
 
 // Profile Service Routes
 Route::prefix('profile')->group(function () {

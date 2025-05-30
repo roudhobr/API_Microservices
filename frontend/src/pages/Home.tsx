@@ -1,6 +1,6 @@
 "use client"
 
-import type React from "react"
+import * as React from "react"
 import { Link } from "react-router-dom"
 import { useAuth } from "../contexts/AuthContext"
 import { Music, Users, Clock, TrendingUp } from "lucide-react"
